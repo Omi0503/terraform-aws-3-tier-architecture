@@ -1,0 +1,32 @@
+
+# Terraform working directory
+.terraform/
+
+# Terraform state files - do not upload
+*.tfstate
+*.tfstate.*
+terraform.tfstate
+terraform.tfstate.backup
+
+# Terraform plan files
+tfplan
+*.tfplan
+
+# Variable files may contain secrets
+*.tfvars
+*.tfvars.json
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Local overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Credentials and environment files
+.env
+*.pem
+*.key
